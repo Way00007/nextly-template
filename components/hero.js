@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/hero.png";
+import Helmet from "react-helmet";
 
 const Hero = () => {
   return (
@@ -41,9 +42,11 @@ const Hero = () => {
                 </svg>
                 <span> View on Github</span>
               </a> */}
-              {/* <div id="getWaitlistContainer" data-waitlist_id="8837" data-widget_type="WIDGET_2"></div>
-              <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
-              <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script> */}
+              <div id="getWaitlistContainer" data-waitlist_id="8837" data-widget_type="WIDGET_2"></div>
+              <Helmet>
+                <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
+                <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
+              </Helmet>
             {/* </div> */}
           </div>
         </div>

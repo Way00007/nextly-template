@@ -11,7 +11,7 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
-import Helmet from "react-helmet"
+// import Helmet from "react-helmet"
 
 const Home = () => {
   return (
@@ -56,12 +56,12 @@ const Home = () => {
         conversion rate as well as support or chat requests.
       </SectionTitle>
       <Faq /> */}
-      <div id="getWaitlistContainer" data-waitlist_id="8837" data-widget_type="WIDGET_1">
+      {/* <div id="getWaitlistContainer" data-waitlist_id="8837" data-widget_type="WIDGET_1">
       </div>
       <Helmet>
         <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
         <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
-      </Helmet>
+      </Helmet> */}
       {/* <Cta /> */}
       <Footer />
       <PopupWidget />
