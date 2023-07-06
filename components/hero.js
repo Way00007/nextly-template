@@ -13,7 +13,7 @@ const Hero = () => {
               Experience the simplicity of AI like never before!
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Experience the unparalleled elegance of AI simplicity! Explore limitless possibilities with the power of Artificial Intelligence today!
+              Unlock the extraordinary potential of Artificial Intelligence and witness the unparalleled elegance of its simplicity! With our user-friendly AI solutions, you can effortlessly harness the power of cutting-edge technology to explore limitless possibilities and revolutionize the way you work. Discover a world of innovation and efficiency like never before, and experience the transformative impact of AI today!
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
