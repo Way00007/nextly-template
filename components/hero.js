@@ -15,7 +15,7 @@ const Hero = () => {
               Experience the unparalleled elegance of AI simplicity! Explore limitless possibilities with the power of Artificial Intelligence today!
             </p>
 
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            {/* <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row"> */}
               {/* <a
                 href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
                 target="_blank"
@@ -44,7 +44,7 @@ const Hero = () => {
               <div id="getWaitlistContainer" data-waitlist_id="8837" data-widget_type="WIDGET_2"></div>
               <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
               <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
