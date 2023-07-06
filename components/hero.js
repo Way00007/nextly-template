@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/hero.png";
-import Helmet from "react-helmet";
+// import Helmet from "react-helmet";
 
 const Hero = () => {
   return (

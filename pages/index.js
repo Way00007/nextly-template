@@ -23,6 +23,8 @@ const Home = () => {
           content="Make AI more accessible and easy to use for everyone"
         />
         <link rel="icon" href="/favicon.ico" />
+        <script>prefinery=window.prefinery||function(){(window.prefinery.q=window.prefinery.q||[]).push(arguments)};</script>
+        <script src="https://widget.prefinery.com/widget/v2/s6hy69jy.js" defer></script>
       </Head>
 
       <Navbar />
