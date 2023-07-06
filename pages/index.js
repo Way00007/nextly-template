@@ -64,7 +64,7 @@ const Home = () => {
       </Helmet> */}
       {/* <Cta /> */}
       <Footer />
-      <PopupWidget />
+      {/* <PopupWidget /> */}
     </>
   );
 }

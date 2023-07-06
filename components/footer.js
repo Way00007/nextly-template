@@ -27,17 +27,17 @@ export default function Footer() {
                       height="32"
                       className="w-8"
                     />
-                  <span>Nextly</span>
+                  <span>Simplic AI</span>
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+            {/* <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
               Nextly is a free landing page & marketing website
               template for startups and indie projects. Its built with
               Next.js & TailwindCSS. And its completely open-source.
-            </div>
+            </div> */}
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <a
                 href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
                 target="_blank"
@@ -50,10 +50,10 @@ export default function Footer() {
                   height="44"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
 
-          <div>
+          {/* <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
                 <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
@@ -61,8 +61,8 @@ export default function Footer() {
                 </Link>
               ))}
             </div>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
                 <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">      
@@ -70,8 +70,8 @@ export default function Footer() {
                 </Link>
               ))}
             </div>
-          </div>
-          <div className="">
+          </div> */}
+          {/* <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
@@ -103,16 +103,16 @@ export default function Footer() {
                 <Linkedin />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a
-            href="https://web3templates.com/"
+            href="https://simplic.ai/"
             target="_blank"
             rel="noopener">
-            Web3Templates.
+            Simplic AI.
           </a>{" "}
           Illustrations from{" "}
           <a
@@ -198,7 +198,7 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>Web3Templates</span>
+      {/* <span>Web3Templates</span> */}
     </a>
   );
 };

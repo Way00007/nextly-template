@@ -13,10 +13,12 @@ const Hero = () => {
               Experience the simplicity of AI like never before!
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Unlock the extraordinary potential of Artificial Intelligence and witness the unparalleled elegance of its simplicity! With our user-friendly AI solutions, you can effortlessly harness the power of cutting-edge technology to explore limitless possibilities and revolutionize the way you work. Discover a world of innovation and efficiency like never before, and experience the transformative impact of AI today!
+              Unlock the extraordinary potential of Artificial Intelligence and witness the unparalleled elegance of its simplicity! With our user-friendly AI solutions, you can effortlessly harness the power of cutting-edge technology to explore limitless possibilities and revolutionize the way you work.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+              Want to know more?
+              Sign up for our waitlist, we'll be in touch soon.
               {/* <a
                 href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
                 target="_blank"
