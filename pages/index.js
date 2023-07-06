@@ -26,7 +26,7 @@ const Home = () => {
 
       <Navbar />
       <Hero />
-      <SectionTitle
+      {/* <SectionTitle
         pretitle="Nextly Benefits"
         title=" Why should you use this landing page">
         Nextly is a free landing page & marketing website template for startups
@@ -54,7 +54,10 @@ const Home = () => {
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
-      <Faq />
+      <Faq /> */}
+      <div id="getWaitlistContainer" data-waitlist_id="8837" data-widget_type="WIDGET_1"></div>
+      <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
+      <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
       <Cta />
       <Footer />
       <PopupWidget />
